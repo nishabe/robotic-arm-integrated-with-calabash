@@ -1,0 +1,17 @@
+start_test_server_in_background
+exit
+start_test_server_in_background
+EXIT
+exit
+query "*"
+exit
+query "*"
+touch "view:'UIButton' marked:'Button'"
+start_test_server_in_background
+touch "view:'UIButton' marked:'Button'"
+query "*"
+touch "view marked:'Button'"
+touch "view marked:'Button'"
+start_test_server_in_background
+touch "view marked:'Swipe Now'"
+exit
